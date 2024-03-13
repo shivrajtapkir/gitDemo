@@ -32,7 +32,7 @@ public class Assignment2 {
 		driver.findElement(By.xpath("//*[@type='submit']")).click();
 		Assert.assertTrue(driver.findElement(By.cssSelector(".alert-success")).isDisplayed());
 		System.out.println(driver.findElement(By.cssSelector(".alert-success")).getText());
-		
+		System.out.println("Hello git");
 		driver.quit();
 	}
 
