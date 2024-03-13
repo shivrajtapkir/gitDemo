@@ -33,6 +33,7 @@ public class Assignment2 {
 		Assert.assertTrue(driver.findElement(By.cssSelector(".alert-success")).isDisplayed());
 		System.out.println(driver.findElement(By.cssSelector(".alert-success")).getText());
 		System.out.println("Hello git");
+		System.out.println("Hello again");
 		driver.quit();
 	}
 
